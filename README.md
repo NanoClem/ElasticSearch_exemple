@@ -1,6 +1,6 @@
 # ElasticSearch_exemple
 
-This project is showing a basic usage of the elacticsearch python lib.  
+This project shows a basic usage of the elacticsearch python lib.  
 You will find [here](https://sexualitics.github.io/) the dataset I used.
 
 ## Installation
