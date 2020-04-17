@@ -18,4 +18,5 @@ CLOUD = your_cloud_id
 HOST = host
 PASSWORD = your_password
 DATASET = your_filename.json
+INDEX = your_index
 ```
