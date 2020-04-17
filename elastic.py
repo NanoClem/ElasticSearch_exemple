@@ -19,7 +19,7 @@ if __name__ == "__main__":
         for k,v in data.items():
             try:
                 del data[k]['id']   # removing useless key
-                res = client.index(index='xhamster', body=v)    # post data to index
+                res = client.index(index=stg.INDEX, body=v)    # post data to index
                 print( json.dumps(res, indent=4) )              # show results
             except KeyError as e:
                 print('Key {} not found'.format(e))
