@@ -1,0 +1,31 @@
+{
+    "properties": {
+        "upload_date": {
+            "type" : "text"
+        },
+        "title": {
+            "type" : "text"
+        },
+        "description": {
+            "type" : "text"
+        },
+        "channels": {
+            "type" : "text"
+        },
+        "nb_wiews": {
+            "type" : "integer"
+        },
+        "nb_votes": {
+            "type" : "integer"
+        },
+        "nb_comments": {
+            "type" : "integer"
+        },
+        "runtime": {
+            "type" : "integer"
+        },
+        "uploader": {
+            "type" : "text"
+        }
+    }
+}
